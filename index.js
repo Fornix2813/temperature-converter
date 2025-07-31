@@ -15,7 +15,7 @@ else if (temp < 20)
     return `COLD!`
 else if(temp < 30)
     return `WARM!`
-else if (temp < 40)
+else if (temp <= 40)
     return `HOT!`
 else;
 return `VERY HOT!`
